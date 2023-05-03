@@ -1,0 +1,7 @@
+This repository contains data from the ASM microbiology spectrums paper Assessment of Enterovirus antibodies during early childhood using multiplex immunoassay.
+The data is split into 7 files based on the infection group (infecting enterovirus species.) 
+There is also a simple shiny application for visualizing antibody signals against enterovirus VP1 antigens (identified by serotype names) and proteases (2A and 3C) over time.
+In the app you can choose the infection group (PCR confirmed infection by a specific Enterovirus species from stool or nasal swab samples collected mothly), which antibody signals to show, which timepoints to show (serum samples taken at 0, 3, 6, 12, 18, 24 and 36 months) and time window to shade around PCR positivity).
+The app can be run using R, by running the script and having the included files in the same folder/working directory.
+The shinyapp is also hosted online at shiny.io/... for viewing online without access to R.
+For further information on the data and how it was collected, refer to the article or contact the authors (niila.jouppila@tuni.fi)
