@@ -45,7 +45,7 @@ ui <- fluidPage(
     sidebarPanel(selectInput("datas",
                              "PCR positivity:",
                              choices=c("EVAs", "EVBs","EVCs","EVDs","RVAs","RVBs","RVCs")),
-                 checkboxGroupInput("antigens","Choose antigens",choices=c("CAV4","CVB1","Echo30","Polio","EVD68","RVA","RVB","RVC","X2A","X3C")),
+                 checkboxGroupInput("antigens","Choose antigens",choices=c("CAV4","CVB1","Echo30","Polio","EVD68","RVA","RVB","RVC","X2A","X3C"),select="CAV4"),
                  sliderInput("ageinmonths","Age in months",min=0,max=36,value=c(0,36),step=3),
                  sliderInput("dpi","Days to infection:", min=-300, max=300, value=c(-300,300),step=10),
                  submitButton("Update View", icon("refresh")),width=2),
